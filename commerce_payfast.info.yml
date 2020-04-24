@@ -5,7 +5,7 @@ package: Commerce (contrib)
 dependencies:
   - commerce:commerce_payment
 
-version: '2.3.0'
+version: '2.3.1'
 core: '8.x'
 core_version_requirement: ^8 || ^9
 project: 'commerce_payfast'
