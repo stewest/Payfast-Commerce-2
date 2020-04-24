@@ -12,15 +12,15 @@ Under repositories:
           "type": "package",
           "package": {
             "name": "commerce/payfast",
-            "version": "2.3.0",
+            "version": "master",
             "type": "drupal-module",
             "source": {
                 "url": "https://github.com/stewest/commerce_payfast.git",
                 "type": "git",
-                "reference": "2.3.0"
+                "reference": "master"
             },
             "dist": {
-                "url": "https://github.com/stewest/commerce_payfast/archive/2.3.0.zip",
+                "url": "https://github.com/stewest/commerce_payfast/archive/master.zip",
                 "type": "zip"
             }
           }
@@ -29,7 +29,7 @@ Under repositories:
 Then add the Require section, with the other contrib modules:
 
     "require": {
-        "commerce/payfast": "2.3.0",
+        "commerce/payfast": "master",
 
 and then under Extra / Installer Paths:
 
